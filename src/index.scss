@@ -1,0 +1,84 @@
+$color-primary: #ffffff;
+$color-secondary: #000000;
+$bg-primary: #9a9a9a;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg {
+  background-color: $bg-primary;
+}
+
+.flexJustifyBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 20px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: $color-primary;
+  margin-right: 8px;
+}
+
+.itemAvailable,
+.itemUnavailable {
+  margin-left: 26px;
+  position: relative;
+}
+
+.itemAvailable::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
+  left: -26px;
+  background-color: #228b22;
+  border-radius: 50%;
+}
+
+.itemUnavailable::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
+  left: -26px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.addButton {
+  background-color: #5a5959 !important;
+  border: none !important;
+  padding: 8px 48px !important;
+  border-radius: 20px !important;
+}
+
+.showMoreButton {
+  color: $color-secondary !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  margin-left: 16px;
+}
+
+.riviewButton {
+  text-align: left !important;
+  margin-left: 0;
+  padding-left: 0 !important;
+}

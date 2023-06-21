@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "2f81a686-7531-11e8-86e5-f0d5bf731f68",
+      "name": "Blended Siena",
+      "model": "COREtec premium",
+      "price": 29,
+      "isAvailable": true,
+      "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg",
+      "description": "This keychain lightning charger comes with a plug so you’ll be able to charge anywhere with an outlet. Great for the traveller on the go who always needs their phone."
+    },
+    {
+      "id": "39ac2118-7531-11e8-86e5-f0d5bf731f68",
+      "name": "Blended Siena",
+      "model": "COREtec premium",
+      "price": 15,
+      "isAvailable": true,
+      "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg",
+      "description": "Classic white coffee mug."
+    },
+    {
+      "id": "4262b2c2-7531-11e8-86e5-f0d5bf731f68",
+      "name": "Blended Siena",
+      "model": "COREtec premium",
+      "price": 11,
+      "isAvailable": false,
+      "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg",
+      "description": "Classic red coffee mug."
+    },
+    {
+      "id": "4262b2c2-7531-11e8-86e5-f0d5bf731f8",
+      "name": "Blended Siena",
+      "model": "COREtec premium",
+      "price": 11,
+      "isAvailable": false,
+      "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg",
+      "description": "Classic red coffee mug."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "4262b2c2-7531-11e8",
+      "author": "John Doe",
+      "date": "Sat Jun 03 2023 13:25:44 GMT+0300 (Eastern European Summer Time)",
+      "rate": 4,
+      "comment": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, earum minima iste explicabo expedita fuga maiores ullam non totam mollitia labore ut unde sequi, asperiores ad aspernatur quam. Quo, exercitationem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, earum minima iste explicabo expedita fuga maiores ullam non totam mollitia labore ut unde sequi, asperiores ad aspernatur quam. Quo, exercitationem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, earum minima iste explicabo expedita fuga maiores ullam non totam mollitia labore ut unde sequi, asperiores ad aspernatur quam. Quo, exercitationem!"
+    }
+  ]
+}
